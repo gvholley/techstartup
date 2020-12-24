@@ -13,3 +13,12 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+.jumbotron {
+  height: 100vh;
+}
+.jumbotron h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
