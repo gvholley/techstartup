@@ -1,4 +1,6 @@
-
+.services_container {
+  margin-bottom: 30px;
+}
 
 .services_container h1 {
   text-align: center;
@@ -6,19 +8,30 @@
 
 }
 
+
 .services_grid {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 10px;
-grid-row-gap: 10px;
-border: 2px solid blue;
+grid-column-gap: 30px;
+grid-row-gap: 30px;
 
+
+}
+
+.services_row p {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: lighter;
 }
 
 .services_img {
   width: 150px;
   height: auto;
+}
+
+.service_header {
+  width: 500px;
 }
 
 .services_grid .box {
@@ -27,4 +40,14 @@ border: 2px solid blue;
   text-align: center;
   overflow: hidden;
   border-radius: 20px;
+}
+
+.box p {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.services_icon_header {
+  text-align: center;
+  margin-bottom: 50px;
 }
