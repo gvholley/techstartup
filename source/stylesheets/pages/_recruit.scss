@@ -1,0 +1,36 @@
+.recruit {
+  background-image: url(/images/recruitment.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.recruit_header {
+  margin-top: 50px;
+}
+
+.project_section h1 {
+  text-align: center;
+}
+
+.recruit_container {
+  padding: 10px 30px 10px 30px;
+  max-width: 1000px;
+  display: flex;
+}
+
+
+.recruit_container_text {
+flex: 1 1 auto;
+font-size: 30px;
+font-weight: lighter;
+}
+
+.recruit_container_text p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
